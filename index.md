@@ -9,7 +9,7 @@ This tutorial will outline the difference between Primary Keys, Candidate Keys, 
 
 #### What are Keys?
 
-Keys in a database are fields in a table that help to uniquely identify data. This is helpful when you want to access a collections of data (a tuple in a database). In the example below, you can use the key 9876 to access Ron's information. This helps give you confidence that you are getting the data you want. If you used the lookup "Weasley", you could get Ginny, Ron, or both. We use keys instead to get the correct data.
+Keys in a database are fields in a table that help to uniquely identify data. This is helpful when you want to access a collection of data (a tuple in a database). In the example below, you can use the key 9876 to access Ron's information. This helps give you confidence that you are getting the data you want. If you used the lookup "Weasley", you could get Ginny, Ron, or both. We use keys instead to get the correct data.
 
 
 #### Student
@@ -35,12 +35,12 @@ Keys in a database are fields in a table that help to uniquely identify data. Th
 |104|Slytherin|Salazar Slytherin|472|
 
 
-We use these keys to lookup data from one table and associate it with data in another table. In the example above, if you want to know what house Luna is in, you take her HouseID and lookup the data in the House table and find that she is in Ravenclaw.
+We use these keys to lookup data from one table and associate it with data in another table. In the example above, if you want to know what house Luna is in, you take her HouseID and look up the data in the House table and find that she is in Ravenclaw.
 
   
 ## Primary Keys
 
-Primary keys are unique set of attributes that identify tables in the relational database. Some common primary keys used are social security numbers (SSN) and uniquely assigned identification numbers like student ID. It is important that primary keys are unique and do not contain null values as this will cause data integrity issues. Using primary keys correctly can save a lot of time when using queries to attain database information. In the example below, you can see that WizardID is unique and therefore the primary key. This primary key allows the user to know the wizard and their patronus.
+Primary keys are a unique set of attributes that identify tables in the relational database. Some common primary keys used are social security numbers (SSN) and uniquely assigned identification numbers like student ID. It is important that primary keys are unique and do not contain null values as this will cause data integrity issues. Using primary keys correctly can save a lot of time when using queries to attain database information. In the example below, you can see that WizardID is unique and therefore the primary key. This primary key allows the user to know the wizard and their patronus.
 
 
 #### Student
@@ -92,7 +92,7 @@ Foreign keys are used to link one table to another. It is a column in one table 
 
 
 ## Composite Keys
-A composite key is a combinations of attributes that can help uniquely identify the rows of the table. The uniqueness is guaranteed when the attributes are used together, where individually they may not be unique. A common composite key would be the use of a house number and street. As those two attributes individually are not unique, but when combined they create a unique key, given that it is local. To create a composite key all you have to do is define the attributes then make them a primary key as shown below.
+A composite key is a combination of attributes that can help uniquely identify the rows of the table. The uniqueness is guaranteed when the attributes are used together, where individually they may not be unique. A common composite key would be the use of a house number and street. As those two attributes individually are not unique, but when combined they create a unique key, given that it is local. To create a composite key all you have to do is define the attributes then make them a primary key as shown below.
 ```
 create table HouseAddress(
     Address text,
@@ -145,7 +145,7 @@ Candidate Keys are keys that can be used to uniquely identify a specific entry i
 |962|Sybill|Trelawney|Divination|
 
 
-In this case, all of the columns, and any combination of columns, are candidate keys because they all uniquely identify an entry in the table. The column StaffID is a number increased by one as staff are added and therfore unique to a staff member. It is similar to a SSN. Therefore, this makes it one of best (*if not the best*) of the candidate keys, because it is guaranteed to always be unique. It is unique to each professor and can therefore uniquely identify a specific database entry. If we *did not have a StaffID*, like this:
+In this case, all of the columns, and any combination of columns, are candidate keys because they all uniquely identify an entry in the table. The column StaffID is a surrogate key and therfore is unique to a staff member. It is similar to a SSN. Therefore, this makes it one of the best (*if not the best*) of the candidate keys, because it is guaranteed to always be unique. It is unique to each professor and can therefore uniquely identify a specific database entry. If we *did not have a StaffID*, like this:
 
 
 #### Professors of Hogwarts 2
@@ -162,7 +162,7 @@ In this case, all of the columns, and any combination of columns, are candidate 
 |Rubeus|Hagrid|Magical Creature Care|
 
 
-Then a good candidate key may be the combination of FirstName & LastName. *Notice that the attribute ProfessorOf in both of the tables has a professor who teaches Potions.* This is why we cannot say the column ProfessorOf is a candidate key, because it does not uniquely identify a specific entry.
+Then a good candidate key may be the combination of FirstName & LastName. *Notice that the attribute ProfessorOf in the table above has two professors who teaches Potions.* This is why we cannot say the column ProfessorOf is a candidate key, because it does not uniquely identify a specific entry.
 
 
 ## Example Problems
@@ -172,7 +172,7 @@ Work the following problems to check your understanding of keys
 1. What are keys used for?
 2. What is another example of when a surrogate key would be useful (other than the example given)?
 3. In the **Professors of Hogwarts 2** table in the Candidate key section, is only the column **FirstName** a candidate key? (Hint: Does it uniquely identify specific entries?)
-4. Imagine you were suddenly the Head Wizard of Hogwarts, and your first problem was to solve the chaos in the mail room. Delivery owls cant distinguish what student mailboxes are which, and mail is flying everywhere. Create a few mailbox label ideas to uniquely identify student mailboxes. What would you choose your labels to be comprised of, Head Wizard? (Be creative!)
+4. Imagine you were suddenly the Head Wizard of Hogwarts, and your first problem was to solve the chaos in the mail room. Delivery owls can't distinguish which maailbox belongs to which student, and mail is flying everywhere. Create a few mailbox label ideas to uniquely identify student mailboxes. What would you choose your labels to be comprised of, Head Wizard? (Be creative!)
 
 
 ## References
@@ -196,7 +196,7 @@ Work the following problems to check your understanding of keys
 4. Potential candidate keys: 
 	* a student's house (Gryffindor, Slytherin, Hufflepuff, Ravenclaw) plus their last name
 	* a uniquely generated student ID number
-	*  a trace of a student's magic wand power (perhaps all wizard wands are unique)
-	*  a student's first name, last name, and city of birth
+	* a trace of a student's magic wand power (perhaps all wizard wands are unique)
+	* a student's first name, last name, and city of birth
 	* a student's full name and favorite spell incantation
 
