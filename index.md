@@ -106,22 +106,27 @@ create table Student(
 ```
 
 ## Candidate Keys
+
+
 Candidate Keys are keys that can be used to uniquely identify a specific entry in a database. Candidate keys can be any column or combination of columns. Therefore, a table may potentially have more than one option of a candidate key, due to the combinations of table columns. If a chosen candidate key contains more than one column, it is also a  **composite key**. It's helpful to imagine candidate keys as their name implies; *candidates*. Think of the entire set of candidate keys of a table, as the step towards choosing a **primary key**. Once a column, or multiple columns, are selected to represent a table's entries, the candidate key becomes the **primary key** of that table. Additionally, candidate keys must remain the same set of columns for its entire lifetime, because it could potentially lose its property of uniquely identifying specific database entries.
+
 
 #### Professors of Hogwarts
 
-|StaffID|FirstName|LastName|ProfessorOf|
+|**StaffID**|**FirstName**|**LastName**|**ProfessorOf**|
 |-------|-----|-----|---|
 |956|Minerva|McGonagall|Transfiguration|
 |984|Severus|Snape|Potions|
 |970|Quirinus|Quirrell|Defence Against the Dark Arts|
 |962|Sybill|Trelawney|Divination|
 
+
 In this case, all of the columns, and any combination of columns, are candidate keys because they all uniquely identify an entry in the table. The column StaffID is a number increased by one as staff are added and therfore unique to a staff member. It is similar to a SSN. Therefore, this makes it one of best (*if not the best*) of the candidate keys, because it is guaranteed to always be unique. It is unique to each professor and can therefore uniquely identify a specific database entry. If we *did not have a StaffID*, like this:
+
 
 #### Professors of Hogwarts 2
 
-|FirstName|LastName|ProfessorOf|
+|**FirstName**|**LastName**|**ProfessorOf**|
 |-----|-----|---|
 |Minerva|McGonagall|Transfiguration|
 |Severus|Snape|**Potions**|
@@ -132,7 +137,9 @@ In this case, all of the columns, and any combination of columns, are candidate 
 |Horace|Slughorn|**Potions**|
 |Rubeus|Hagrid|Magical Creature Care|
 
+
 Then a good candidate key may be the combination of FirstName & LastName. *Notice that the attribute ProfessorOf in both of the tables has a professor who teaches Potions.* This is why we cannot say the column ProfessorOf is a candidate key, because it does not uniquely identify a specific entry.
+
 
 ## Example Problems
 Work the following problems to check your understanding of keys
