@@ -7,15 +7,15 @@ This tutorial will outline the difference between Primary Keys, Candidate Keys, 
 Keys in a database are fields in a table that help to uniquely identify data. This is helpful when you want to access a collections of data (a tuple in a database). In the example below, you can use the key 9876 to access Ron's information. This helps give you confidence that you are getting the data you want. If you used the lookup "Weasley", you could get Ginny, Ron, or both. We use keys instead to get the correct data.
 
 #### Student
-|WizardID |FirstName|Lastname   |HouseID|
-|---------|---------|-----------|-------|
-|6543     | Hermione| Granger   |101    |
-|6667     | Draco   | Malfoy    |104    |
-|5467     | Neville | Longbottom|101    | 
-|3434     | Luna    | Lovegood  |103    |
-|1234     | Harry   | Potter    |101    |
-|3456     | Ginny   | Weasley   |101    |
-|9876     | Ron     | Weasley   |101    |
+WizardID |FirstName|Lastname|HouseID
+---|---|---|---|
+6543|Hermione|Granger|101
+6667|Draco|Malfoy|104
+5467|Neville|Longbottom|101
+3434|Luna|Lovegood|103
+1234|Harry|Potter|101
+3456|Ginny|Weasley|101
+9876|Ron|Weasley|101
 
 #### House
 |HouseID|Name      |Founder          |HousePoints|
