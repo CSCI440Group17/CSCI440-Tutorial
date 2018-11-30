@@ -202,13 +202,23 @@ Work the following problems to check your understanding of keys
 * Composite Keys
 	* https://www.javatpoint.com/sql-composite-key
 
+## Additional Reading
+
+##### [Database Keys: The Complete Guide (Surrogate, Natural, Composite & More)](https://www.databasestar.com/database-keys/)
+
+##### [How to Use Keys to Access Information Quickly in a SQL Database](https://www.dummies.com/programming/sql/how-to-use-keys-to-access-information-quickly-in-a-sql-database/)
+
+##### [Relational Database Management Keys](http://rdbms.opengrass.net/2_Database%20Design/2.1_TermsOfReference/2.1.2_Keys.html)
+
+
 ## Solutions
 
 
 1. Keys are used to uniquely identify data
 2. Potential examples when surrogate keys are useful:
 	* logging quiddich game results
-	* logging hours studied for different classes
+	* logging hours studied for diffe
+	rent classes
 3. Yes! All the FirstName entries are unique, and therefore the FirstName qualifies as a candidate key
 	* However, as the table expands for more staff perhaps the same FirstName will occur again!
 4. Potential candidate keys: 
