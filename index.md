@@ -179,7 +179,8 @@ Work the following problems to check your understanding of keys
 2. What is another example of when a surrogate key would be useful (other than the example given)?
 3. In the **Professors of Hogwarts 2** table in the Candidate key section, is only the column **FirstName** a candidate key? (Hint: Does it uniquely identify specific entries?)
 4. Imagine you were suddenly the Head Wizard of Hogwarts, and your first problem was to solve the chaos in the mail room. Delivery owls can't distinguish which maailbox belongs to which student, and mail is flying everywhere. Create a few mailbox label ideas to uniquely identify student mailboxes. What would you choose your labels to be comprised of, Head Wizard? (Be creative!)
-
+5. What are some other primary keys besides SSN?
+6. What are some other composite keys besides address and stree name?
 
 ## References
 
@@ -190,6 +191,10 @@ Work the following problems to check your understanding of keys
 	* https://www.sisense.com/blog/when-and-how-to-use-surrogate-keys/
 * Foreign Keys
 	* https://www.techopedia.com/definition/7272/foreign-key
+* Primary Keys
+	* https://www.tutorialspoint.com/sql/sql-primary-key.htm
+* Composite Keys
+	* https://www.javatpoint.com/sql-composite-key
 
 ## Solutions
 
@@ -206,4 +211,6 @@ Work the following problems to check your understanding of keys
 	* a trace of a student's magic wand power (perhaps all wizard wands are unique)
 	* a student's first name, last name, and city of birth
 	* a student's full name and favorite spell incantation
+5. Driver license number, email addresses, and telephone numbers. If you can't find any primary key you can always make your own by incrementing a nubmer for each row.
+6. Course and course number, Student and student number, and department and department number
 
