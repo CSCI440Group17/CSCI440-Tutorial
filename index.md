@@ -71,7 +71,7 @@ create table Student(
 ## Foreign Keys
 Foreign keys are used to link one table to another. It is a column in one table that stores the primary key of another table in order to access one specific, unique entry of another table. It is crucial that anytime a foreign key is inserted into a table, there has to be a corresponding key for the table it is attempting to reference. Incorrect insertions, as well as deletions from the referenced table could result in the destruction of that relationship. A good example of when to use this is with the patronus table referenced earlier. If we added a column for the ID of each entry, the wizard ID functions as solely a foreign key to access the name of the wizard who owns the patronus. This will make it easier to find a specific (wizard, patronus) pair, specifically if two wizards have the same patronus.
 
-####Wizards
+#### Wizards
 
 |WizardID |FirstName|Lastname|
 |---------|---------|--------|
@@ -81,7 +81,7 @@ Foreign keys are used to link one table to another. It is a column in one table 
 |9876|Ron|Weasley|
 
 
-####Patronuses
+#### Patronuses
 
 |PatronusID|WizardID |Patronus|
 |---------|---------|--------|
