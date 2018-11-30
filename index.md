@@ -191,24 +191,24 @@ Work the following problems to check your understanding of keys
 ## References
 
 
-##### [Candidate Keys](https://www.lifewire.com/candidate-key-definition-1019246)
+#### [Candidate Keys](https://www.lifewire.com/candidate-key-definition-1019246)
 
-##### [Surrogate Keys](https://www.sisense.com/blog/when-and-how-to-use-surrogate-keys/)
+#### [Surrogate Keys](https://www.sisense.com/blog/when-and-how-to-use-surrogate-keys/)
 
-##### [Foreign Keys](https://www.techopedia.com/definition/7272/foreign-key)
+#### [Foreign Keys](https://www.techopedia.com/definition/7272/foreign-key)
 
-##### [Primary Keys](https://www.tutorialspoint.com/sql/sql-primary-key.htm)
+#### [Primary Keys](https://www.tutorialspoint.com/sql/sql-primary-key.htm)
 
-##### [Composite Keys](https://www.javatpoint.com/sql-composite-key)
+#### [Composite Keys](https://www.javatpoint.com/sql-composite-key)
 
 
 ## Additional Reading
 
-##### [Database Keys: The Complete Guide (Surrogate, Natural, Composite & More)](https://www.databasestar.com/database-keys/)
+#### [Database Keys: The Complete Guide (Surrogate, Natural, Composite & More)](https://www.databasestar.com/database-keys/)
 
-##### [How to Use Keys to Access Information Quickly in a SQL Database](https://www.dummies.com/programming/sql/how-to-use-keys-to-access-information-quickly-in-a-sql-database/)
+#### [How to Use Keys to Access Information Quickly in a SQL Database](https://www.dummies.com/programming/sql/how-to-use-keys-to-access-information-quickly-in-a-sql-database/)
 
-##### [Relational Database Management Keys](http://rdbms.opengrass.net/2_Database%20Design/2.1_TermsOfReference/2.1.2_Keys.html)
+#### [Relational Database Management Keys](http://rdbms.opengrass.net/2_Database%20Design/2.1_TermsOfReference/2.1.2_Keys.html)
 
 
 ## Solutions
