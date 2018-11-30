@@ -108,8 +108,6 @@ Surrogate keys are sometimes called system generated keys or database sequence n
 |-------|--------|-------|------------|------|
 |01|6667|104|-20|out of bed at midnight|
 |02|1234|101|-20|poked a dragon with a stick|
-|03|9876|101|-20|out of bed at midnight|
-|04|6543|101|-20|out of bed at midnight|
 |05|9876|101|50|the best-played game of chess Hogwarts has seen in many years|
 |06|6543|101|50|cool logic in the face of fire| 
 |07|1234|101|50|pure nerve and outstanding courage|
