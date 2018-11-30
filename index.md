@@ -142,6 +142,8 @@ Then a good candidate key may be the combination of FirstName & LastName. *Notic
 
 
 ## Example Problems
+
+
 Work the following problems to check your understanding of keys
 1. What are keys used for?
 2. What is another example of when a surrogate key would be useful (other than the example given)?
@@ -150,14 +152,17 @@ Work the following problems to check your understanding of keys
 
 
 ## References
+
+
 * Candidate Keys
 	* https://www.lifewire.com/candidate-key-definition-1019246
 * Surrogate Keys
 	* https://www.sisense.com/blog/when-and-how-to-use-surrogate-keys/
 
 
-
 ## Solutions
+
+
 1. Keys are used to uniquely identify data
 2. Potential examples when surrogate keys are useful:
 	* logging quiddich game results
