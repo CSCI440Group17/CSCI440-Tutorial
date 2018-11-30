@@ -45,6 +45,7 @@ Primary keys are unique set of attributes that identify tables in the relational
 |1234     | Stag   |
 |6543     | Otter  |
 |9876     | Dog    |
+
 As seen above the primary key, WizardID is used to connect the two tables. For the WizardID 1234, his name is Harry Potter and his patronus is the stag. This allows tables to have pertinent information. When creating the Student table in SQL you can specify primary key as seen below.
 ```
 create table Student(
@@ -92,7 +93,9 @@ Surrogate keys are sometimes called system generated keys or database sequence n
 |06     |6543    |101    |50          |cool logic in the face of fire| 
 |07     |1234    |101    |50          |pure nerve and outstanding courage|
 |08     |5466    |101    |10          |standing up to his friends for what he thought was right|
+
 Surrogate keys can be used as primary keys.
+Surrogate keys can include a timestamp.
 
 To make the database create a surrogate key for each entry, use the following syntax when creating your table:
 ```
@@ -142,10 +145,16 @@ Work the following problems to check your understanding of keys
 ## References
 * Candidate Keys
 	* https://www.lifewire.com/candidate-key-definition-1019246
+* Surrogate Keys
+	* https://www.sisense.com/blog/when-and-how-to-use-surrogate-keys/
 
 
 
 ## Solutions
+1. Keys are used to uniquely identify data
+2. Potential examples when surrogate keys are useful:
+	* logging quiddich game results
+	* logging hours studied for different classes
 3. Yes! All the FirstName entries are unique, and therefore the FirstName qualifies as a candidate key
 	* However, as the table expands for more staff perhaps the same FirstName will occur again!
 4. Potential candidate keys: 
