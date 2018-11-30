@@ -69,7 +69,7 @@ create table Student(
 );
 ```
 ## Foreign Keys
-Foreign keys are used to link one table to another. It is a column in one table that stores the primary key of another table in order to access one specific, unique entry of another table. It is crucial that anytime a foreign key is inserted into a table, there has to be a corresponding key for the table it is attempting to reference. Incorrect insertions, as well as deletions from the referenced table could result in the destruction of that relationship. A good example of when to use this is with the patronus table referenced earlier. If we added a column for the ID of each entry, the wizard ID functions as solely a foreign key to access the name of the wizard who owns the patronus. This will make it easier to find a specific (wizard, patronus) pair, specifically if two wizards have the same patronus.
+Foreign keys are used to link one table to another. It is a column in one table that stores the primary key of the referenced table in order to access one specific, unique entry of that table. It is crucial that anytime a foreign key is inserted into a table, there has to be a corresponding key for the table it is attempting to reference. Incorrect insertions, as well as deletions from the referenced table could result in the destruction of that relationship. A good example of when to use this is with the patronus table referenced earlier. If we added a column for the ID of each entry, the wizard ID functions as solely a foreign key to access the name of the wizard who owns the patronus. This will make it easier to find a specific (wizard, patronus) pair, specifically if two wizards have the same patronus, like Harry and his father, James.
 
 #### Wizards
 
@@ -89,7 +89,13 @@ Foreign keys are used to link one table to another. It is a column in one table 
 |2|0153|Stag|
 |3|6543|Otter|
 |4|9876|Dog|
-
+```
+create table Patronus(
+    PatronusID integer primary key,
+    WizardID integer REFERENCES Wizard(WizardID),
+    Patronus text
+);
+```
 
 ## Composite Keys
 A composite key is a combination of attributes that can help uniquely identify the rows of the table. The uniqueness is guaranteed when the attributes are used together, where individually they may not be unique. A common composite key would be the use of a house number and street. As those two attributes individually are not unique, but when combined they create a unique key, given that it is local. To create a composite key all you have to do is define the attributes then make them a primary key as shown below.
