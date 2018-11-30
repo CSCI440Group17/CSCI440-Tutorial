@@ -83,12 +83,13 @@ Foreign keys are used to link one table to another. It is a column in one table 
 
 #### Patronuses
 
-|PatronusID|WizardID |Patronus|
+|PatronusID|WizardID|Patronus|
 |---------|---------|--------|
 |1|1234|Stag|
 |2|0153|Stag|
 |3|6543|Otter|
 |4|9876|Dog|
+
 ```
 create table Patronus(
     PatronusID integer primary key,
