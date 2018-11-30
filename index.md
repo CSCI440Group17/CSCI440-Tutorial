@@ -191,16 +191,16 @@ Work the following problems to check your understanding of keys
 ## References
 
 
-* Candidate Keys
-	* https://www.lifewire.com/candidate-key-definition-1019246
-* Surrogate Keys
-	* https://www.sisense.com/blog/when-and-how-to-use-surrogate-keys/
-* Foreign Keys
-	* https://www.techopedia.com/definition/7272/foreign-key
-* Primary Keys
-	* https://www.tutorialspoint.com/sql/sql-primary-key.htm
-* Composite Keys
-	* https://www.javatpoint.com/sql-composite-key
+##### [Candidate Keys](https://www.lifewire.com/candidate-key-definition-1019246)
+
+##### [Surrogate Keys](https://www.sisense.com/blog/when-and-how-to-use-surrogate-keys/)
+
+##### [Foreign Keys](https://www.techopedia.com/definition/7272/foreign-key)
+
+##### [Primary Keys](https://www.tutorialspoint.com/sql/sql-primary-key.htm)
+
+##### [Composite Keys](https://www.javatpoint.com/sql-composite-key)
+
 
 ## Additional Reading
 
