@@ -1,12 +1,11 @@
 # Database Keys
+ 
+#### Grace Walkuski
+#### Kendall DiLorenzo
+#### Michael Hewitt
+#### Ian Hecker
 
-##### By: 
-##### Grace Walkuski
-##### Kendall DiLorenzo
-##### Michael Hewitt
-##### Ian Hecker
-
-##### MSU CSCI 440 Database Systems, Fall 2018
+#### MSU CSCI 440 Database Systems, Fall 2018
 
 
 This tutorial will outline the difference between Primary Keys, Candidate Keys, Foreign Keys, Composite Keys, and Surrogate Keys. How do you assign them? When do you need them? What are they used for? This is a topic that will help you create stronger Relational Schemas and therefore design and build better databases. 
