@@ -94,6 +94,8 @@ Foreign keys are used to link one table to another. It is a column in one table 
 |4|9876|Dog|
 
 
+Here is some SQL code for making a foreign key:
+
 ```
 create table Patronus(
     PatronusID integer primary key,
