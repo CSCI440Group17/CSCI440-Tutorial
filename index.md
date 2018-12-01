@@ -186,8 +186,8 @@ Work the following problems to check your understanding of keys
 2. What is another example of when a surrogate key would be useful (other than the example given)?
 3. In the *Professors of Hogwarts 2* table in the Candidate key section, is only the column *FirstName* a candidate key? (Hint: Does it uniquely identify specific entries?)
 4. Imagine you were suddenly the Head Wizard of Hogwarts, and your first problem was to solve the chaos in the mail room. Delivery owls can't distinguish which maailbox belongs to which student, and mail is flying everywhere. Create a few mailbox label ideas to uniquely identify student mailboxes. What would you choose your labels to be comprised of, Head Wizard? (Be creative!)
-5. What are some other primary keys besides SSN?
-6. What are some other composite keys besides address and stree name?
+5. What are some other examples of primary keys besides SSN?
+6. What are some other composite keys besides address and street name?
 
 ## References
 
